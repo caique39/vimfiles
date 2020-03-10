@@ -139,6 +139,10 @@ nnoremap <silent> <C-up> :<C-U>ObviousResizeUp<CR>
 nnoremap <silent> <C-right> :<C-U>ObviousResizeRight<CR>
 " End ObviousResize suggestions
 
+" EasyMotion suggestions
+map <Leader>w <Plug>(easymotion-bd-w)
+" end EasyMotion suggestions
+
 highlight Normal ctermbg=none
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/

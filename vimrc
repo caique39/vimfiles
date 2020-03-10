@@ -23,6 +23,8 @@ let g:obvious_resize_default = 2
 set autoread
 set showcmd
 set showmode
+set nowrap
+set title
 set lazyredraw
 set incsearch
 set hlsearch
@@ -30,11 +32,13 @@ set ruler
 set ignorecase
 set noswapfile
 set smartcase
-set t_Co=256
 set number
-set relativenumber
-set encoding=UTF-8
 set list
+set relativenumber
+
+set encoding=UTF-8
+set t_Co=256
+set scrolloff=3
 set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
 
 " Tabs

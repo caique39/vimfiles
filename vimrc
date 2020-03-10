@@ -7,9 +7,6 @@ let mapleader = " "
 let NERDTreeShowHidden = 1
 let g:user_emmet_leader_key = ","
 
-let g:monokai_term_italic = 1
-let g:monokai_gui_italic = 1
-
 let g:better_whitespace_enabled = 1
 
 let g:ale_fix_on_save = 0

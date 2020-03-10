@@ -100,6 +100,7 @@ colorscheme onedark
 
 nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
+nnoremap <Leader>f :Ag<CR>
 nnoremap <Leader>u :%!python -m json.tool<CR>
 nmap <silent> <leader>h :nohlsearch<CR>
 

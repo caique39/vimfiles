@@ -152,6 +152,20 @@ xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 " EasyAlign suggestions
 
+" Fugitive suggestions:
+nnoremap <Leader>gd :Gdiff<cr>
+nnoremap <Leader>gs :Gstatus<cr>
+nnoremap <Leader>gw :Gwrite<cr>
+nnoremap <Leader>ga :Git add<cr>
+nnoremap <Leader>gb :Gblame<cr>
+nnoremap <Leader>gci :Gcommit<cr>
+nnoremap <Leader>ge :Gedit<cr>
+nnoremap <Leader>gm :Gmove
+nnoremap <Leader>gr :Gread<cr>
+nnoremap <Leader>grm :Gremove<cr>
+nnoremap <Leader>gp :Git push
+" End Fugitive suggestions
+
 highlight Normal ctermbg=none
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/

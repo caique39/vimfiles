@@ -23,6 +23,7 @@ let g:obvious_resize_default = 2
 set autoread
 set showcmd
 set showmode
+set lazyredraw
 set incsearch
 set hlsearch
 set ruler

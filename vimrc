@@ -64,6 +64,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'editorconfig/editorconfig-vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
+Plug 'junegunn/vim-easy-align'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -138,9 +139,14 @@ nnoremap <silent> <C-up> :<C-U>ObviousResizeUp<CR>
 nnoremap <silent> <C-right> :<C-U>ObviousResizeRight<CR>
 " End ObviousResize suggestions
 
-" EasyMotion suggestions
+" EasyMotion suggestions:
 map <Leader>w <Plug>(easymotion-bd-w)
 " end EasyMotion suggestions
+
+" EasyAlign suggestions:
+xmap ga <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)
+" EasyAlign suggestions
 
 highlight Normal ctermbg=none
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929

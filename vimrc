@@ -2,8 +2,11 @@ syntax on
 
 " lets:
 
+let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+
 let mapleader = " "
 let NERDTreeShowHidden = 1
+
 let g:user_emmet_leader_key = ","
 let g:better_whitespace_enabled = 1
 let g:obvious_resize_default = 2
@@ -129,7 +132,7 @@ autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " End NERDTree suggestions
 
 " Fzf suggestions:
-nmap ; :Files<CR>
+nmap ; :FZF<CR>
 " End Fzf suggestions
 
 " ObviousResize suggestions:

@@ -10,10 +10,13 @@ let NERDTreeShowHidden = 1
 let g:user_emmet_leader_key = ","
 let g:better_whitespace_enabled = 1
 let g:obvious_resize_default = 2
+
+let g:ale_sign_column_always = 1
 let g:ale_fix_on_save = 0
 let g:ale_fixers = {
- \ 'javascript': ['eslint']
- \ }
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'javascript': ['eslint'],
+\}
 
 " end lets
 
@@ -92,7 +95,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'joshdick/onedark.vim'
 
 " Lint
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 
 " Reports
 Plug 'wakatime/vim-wakatime'

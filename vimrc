@@ -38,6 +38,8 @@ set number
 set list
 set relativenumber
 
+set statusline+=%F
+set numberwidth=5
 set encoding=UTF-8
 set t_Co=256
 set scrolloff=3

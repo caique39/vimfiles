@@ -141,7 +141,6 @@ map <Leader>nt :NERDTreeToggle<CR>
 map <Leader>nf :NERDTreeFind<CR>
 map <Leader>a <C-w>
 
-autocmd VimEnter * NERDTree | wincmd w
 autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " End NERDTree suggestions
 

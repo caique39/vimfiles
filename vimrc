@@ -40,6 +40,11 @@ set number
 set list
 set relativenumber
 
+
+" Make it obvious where 80 characters is
+set textwidth=80
+set colorcolumn=+1
+
 set statusline=%F
 set laststatus=2
 set numberwidth=5
@@ -190,5 +195,5 @@ nnoremap <Leader>gp :Git push
 " End Fugitive suggestions
 
 highlight Normal ctermbg=none
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+" highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+" match OverLength /\%81v.\+/

@@ -8,7 +8,9 @@ let mapleader = " "
 let NERDTreeShowHidden = 1
 
 let g:user_emmet_leader_key = ","
+
 let g:better_whitespace_enabled = 1
+
 let g:obvious_resize_default = 2
 
 let g:ale_sign_column_always = 1
@@ -107,11 +109,14 @@ call plug#end()
 
 colorscheme onedark
 
+inoremap jk <Esc>
+
 nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
 nnoremap <Leader>f :Ag<CR>
 nnoremap <Leader>u :%!python -m json.tool<CR>
-nmap <silent> <leader>h :nohlsearch<CR>
+
+nnoremap <silent> <leader>h :nohlsearch<CR>
 
 " Coc suggestions:
 function! s:check_back_space() abort

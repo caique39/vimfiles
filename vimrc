@@ -38,7 +38,8 @@ set number
 set list
 set relativenumber
 
-set statusline+=%F
+set statusline=%F
+set laststatus=2
 set numberwidth=5
 set encoding=UTF-8
 set t_Co=256

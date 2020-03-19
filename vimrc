@@ -51,10 +51,10 @@ set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
 " Tabs
 set expandtab
 set autoindent
-set smarttab
-set shiftwidth=4
-set tabstop=4
 set smartindent
+set smarttab
+set tabstop=2
+set shiftwidth=2
 
 "CoC suggestions:
 set nohidden

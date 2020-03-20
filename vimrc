@@ -196,6 +196,7 @@ nnoremap <Leader>gm :Gmove
 nnoremap <Leader>gr :Gread<cr>
 nnoremap <Leader>grm :Gremove<cr>
 nnoremap <Leader>gp :Git push
+nnoremap <Leader>gl :0Glog<cr>
 " End Fugitive suggestions
 
 highlight Normal ctermbg=none

@@ -42,6 +42,7 @@ set relativenumber
 set wildmenu
 set wildmode=full
 set wildignorecase
+set autochdir
 
 " Make it obvious where 80 characters is
 set textwidth=80

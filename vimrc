@@ -39,7 +39,9 @@ set smartcase
 set number
 set list
 set relativenumber
-
+set wildmenu
+set wildmode=full
+set wildignorecase
 
 " Make it obvious where 80 characters is
 set textwidth=80

@@ -165,10 +165,10 @@ nmap ; :FZF<CR>
 " End Fzf suggestions
 
 " ObviousResize suggestions:
-nnoremap <silent> <C-left> :<C-U>ObviousResizeLeft<CR>
-nnoremap <silent> <C-down> :<C-U>ObviousResizeDown<CR>
-nnoremap <silent> <C-up> :<C-U>ObviousResizeUp<CR>
-nnoremap <silent> <C-right> :<C-U>ObviousResizeRight<CR>
+nnoremap <silent> <Left> :<C-U>ObviousResizeLeft<CR>
+nnoremap <silent> <Down> :<C-U>ObviousResizeDown<CR>
+nnoremap <silent> <Up> :<C-U>ObviousResizeUp<CR>
+nnoremap <silent> <Right> :<C-U>ObviousResizeRight<CR>
 " End ObviousResize suggestions
 
 " EasyMotion suggestions:

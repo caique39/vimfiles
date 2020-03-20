@@ -185,7 +185,7 @@ nmap ga <Plug>(EasyAlign)
 " EasyAlign suggestions
 
 " Fugitive suggestions:
-nnoremap <Leader>gd :Gdiff<cr>
+nnoremap <Leader>gd :Gvdiff<cr>
 nnoremap <Leader>gs :Gstatus<cr>
 nnoremap <Leader>gw :Gwrite<cr>
 nnoremap <Leader>ga :Git add<cr>

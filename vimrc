@@ -68,7 +68,7 @@ set shiftwidth=2
 set nohidden
 set nobackup
 set nowritebackup
-set updatetime=300
+set updatetime=100
 set shortmess+=c
 set shortmess-=S
 set cmdheight=2

@@ -141,6 +141,7 @@ inoremap <silent><expr> <Tab>
       \ coc#refresh()
 
 autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
+autocmd CursorHold * silent call CocActionAsync('highlight')
 
 hi! link CocErrorSign WarningMsg
 hi! link CocWarningSign Number

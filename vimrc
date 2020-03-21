@@ -33,9 +33,9 @@ set lazyredraw
 set incsearch
 set hlsearch
 set ruler
+set smartcase
 set ignorecase
 set noswapfile
-set smartcase
 set number
 set list
 set relativenumber
@@ -45,8 +45,7 @@ set wildignorecase
 set autochdir
 
 " Make it obvious where 80 characters is
-set textwidth=80
-set colorcolumn=+1
+set colorcolumn=81
 
 set statusline=%F
 set laststatus=2

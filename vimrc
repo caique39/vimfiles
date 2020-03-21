@@ -120,6 +120,7 @@ colorscheme onedark
 
 inoremap jk <Esc>
 
+nnoremap 0 ^
 nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
 nnoremap <Leader>f :Ag<CR>

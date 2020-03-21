@@ -105,6 +105,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'mattn/emmet-vim'
 
 " UI
+Plug 'ryanoasis/vim-devicons'
 Plug 'joshdick/onedark.vim'
 
 " Lint

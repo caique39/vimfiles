@@ -171,7 +171,7 @@ nnoremap <C-l> <C-w>l
 " End NERDTree suggestions
 
 " Fzf suggestions:
-nmap ; :FZF<CR>
+nmap ; :Files<CR>
 " End Fzf suggestions
 
 " ObviousResize suggestions:

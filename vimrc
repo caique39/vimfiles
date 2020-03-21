@@ -47,7 +47,6 @@ set autochdir
 " Make it obvious where 80 characters is
 set colorcolumn=81
 
-set statusline=%F
 set laststatus=2
 set numberwidth=5
 set encoding=UTF-8

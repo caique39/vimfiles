@@ -89,6 +89,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tomtom/tcomment_vim'
 Plug 'talek/obvious-resize'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'rstacruz/vim-closer'
 
 " Git
 Plug 'mhinz/vim-signify'

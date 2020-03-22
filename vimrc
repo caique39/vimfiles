@@ -13,8 +13,6 @@ let g:better_whitespace_enabled = 1
 
 let g:obvious_resize_default = 2
 
-let g:ale_sign_column_always = 1
-let g:ale_fix_on_save = 0
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'javascript': ['eslint'],

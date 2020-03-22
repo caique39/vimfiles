@@ -124,8 +124,9 @@ nnoremap <Leader>O O<Esc>
 nnoremap <Leader>f :Ag<CR>
 nnoremap <Leader>u :%!python -m json.tool<CR>
 nnoremap <silent> <leader>h :nohlsearch<CR>
+nnoremap <Leader>n :w !node<CR>
 
-vnoremap <leader>s :sort<CR>
+vnoremap <Leader>s :sort<CR>
 
 " Coc suggestions:
 function! s:check_back_space() abort

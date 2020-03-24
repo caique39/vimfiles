@@ -7,6 +7,8 @@ let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 let mapleader = " "
 let NERDTreeShowHidden = 1
 
+let g:ale_fix_on_save = 0
+
 let g:user_emmet_leader_key = ","
 
 let g:better_whitespace_enabled = 1

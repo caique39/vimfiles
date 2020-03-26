@@ -42,7 +42,6 @@ set relativenumber
 set wildmenu
 set wildmode=list:longest,full
 set wildignorecase
-set autochdir
 
 " Make it obvious where 80 characters is
 set colorcolumn=81

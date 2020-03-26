@@ -43,6 +43,9 @@ set wildmenu
 set wildmode=list:longest,full
 set wildignorecase
 
+set splitright
+set splitbelow
+
 " Make it obvious where 80 characters is
 set colorcolumn=81
 

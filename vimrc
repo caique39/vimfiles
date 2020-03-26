@@ -40,7 +40,7 @@ set number
 set list
 set relativenumber
 set wildmenu
-set wildmode=full
+set wildmode=list:longest,full
 set wildignorecase
 set autochdir
 

@@ -83,6 +83,7 @@ nnoremap <C-y> 3<C-y>
 
 nnoremap 0 ^
 nnoremap <Leader><Leader> :w<CR>
+nnoremap <Leader>q :q<CR>
 nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
 nnoremap <Leader>f :Ag<CR>

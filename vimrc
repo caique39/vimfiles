@@ -123,6 +123,10 @@ colorscheme onedark
 
 inoremap jk <Esc>
 
+" scroll the viewport faster
+nnoremap <C-e> 3<C-e>
+nnoremap <C-y> 3<C-y>
+
 nnoremap 0 ^
 nnoremap <Leader><Leader> :w<CR>
 nnoremap <Leader>o o<Esc>

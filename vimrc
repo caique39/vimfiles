@@ -210,6 +210,8 @@ nnoremap <Leader>gl :0Glog<cr>
 " End Fugitive suggestions
 
 highlight Normal ctermbg=none
-highlight LineNr ctermfg=grey
+highlight CursorLineNr ctermfg=lightblue cterm=bold
+highlight LineNr ctermfg=none
+
 " highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 " match OverLength /\%81v.\+/

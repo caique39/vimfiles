@@ -2,6 +2,8 @@ call plug#begin('~/.vim/plugged')
 
 " Plugins:
 
+Plug 'tpope/vim-eunuch'
+
 " Editing
 Plug 'editorconfig/editorconfig-vim'
 Plug 'easymotion/vim-easymotion'

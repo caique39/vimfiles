@@ -161,6 +161,7 @@ nnoremap <Leader>gw :Gwrite<cr>
 nnoremap <Leader>ga :Git add<cr>
 nnoremap <Leader>gb :Gblame<cr>
 nnoremap <Leader>gci :Gcommit<cr>
+nnoremap <Leader>gch :Git checkout -- %<cr>
 nnoremap <Leader>ge :Gedit<cr>
 nnoremap <Leader>gm :Gmove
 nnoremap <Leader>gr :Gread<cr>

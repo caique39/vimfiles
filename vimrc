@@ -12,6 +12,7 @@ let NERDTreeShowHidden = 1
 let g:ale_fix_on_save = 0
 let g:user_emmet_leader_key = ","
 let g:better_whitespace_enabled = 1
+let g:strip_whitespace_on_save = 1
 let g:obvious_resize_default = 2
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],

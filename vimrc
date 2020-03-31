@@ -43,6 +43,7 @@ set wildmode=list:longest,full
 set wildignorecase
 set splitright
 set splitbelow
+set clipboard=unnamed
 
 " Make it obvious where 80 characters is
 set colorcolumn=81

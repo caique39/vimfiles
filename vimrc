@@ -7,6 +7,7 @@ colorscheme onedark
 " lets:
 
 let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+let NERDTreeShowLineNumbers = 1
 let mapleader = " "
 let NERDTreeShowHidden = 1
 let g:ale_fix_on_save = 0

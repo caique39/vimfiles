@@ -29,6 +29,7 @@ Plug 'junegunn/fzf.vim'
 " Languages and frameworks
 Plug 'sheerun/vim-polyglot'
 Plug 'mattn/emmet-vim'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 " UI
 Plug 'ryanoasis/vim-devicons'

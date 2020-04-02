@@ -85,7 +85,7 @@ nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
 
 nnoremap 0 ^
-nnoremap H 0
+nmap H 0
 nnoremap L $
 nnoremap <Leader>q :q<CR>
 nnoremap <Leader>o o<Esc>

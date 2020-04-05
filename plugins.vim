@@ -18,6 +18,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'rstacruz/vim-closer'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-repeat'
+Plug 'christoomey/vim-sort-motion'
 
 " Git
 Plug 'mhinz/vim-signify'

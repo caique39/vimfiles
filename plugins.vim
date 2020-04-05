@@ -17,6 +17,7 @@ Plug 'talek/obvious-resize'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'rstacruz/vim-closer'
 Plug 'tpope/vim-abolish'
+Plug 'tpope/vim-repeat'
 
 " Git
 Plug 'mhinz/vim-signify'

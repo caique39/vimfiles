@@ -77,7 +77,6 @@ set signcolumn=yes
 
 " end sets
 
-
 inoremap jk <Esc>
 
 " scroll the viewport faster

@@ -79,6 +79,9 @@ set signcolumn=yes
 
 inoremap jk <Esc>
 
+vnoremap < <gv
+vnoremap > >gv
+
 " scroll the viewport faster
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>

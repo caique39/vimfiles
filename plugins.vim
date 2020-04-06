@@ -19,7 +19,10 @@ Plug 'rstacruz/vim-closer'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-repeat'
 Plug 'christoomey/vim-sort-motion'
+
+" Text objects
 Plug 'michaeljsmith/vim-indent-object'
+Plug 'vim-scripts/argtextobj.vim'
 
 " Git
 Plug 'mhinz/vim-signify'

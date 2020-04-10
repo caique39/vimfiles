@@ -36,6 +36,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'mattn/emmet-vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'ap/vim-css-color'
 
 " UI
 Plug 'ryanoasis/vim-devicons'

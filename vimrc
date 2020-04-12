@@ -55,7 +55,7 @@ set t_Co=256
 set scrolloff=3
 set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
 set foldmethod=indent
-set foldlevelstart=10
+set foldlevelstart=20
 
 " Tabs
 set expandtab

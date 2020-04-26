@@ -89,7 +89,6 @@ nnoremap L $
 nnoremap <Leader>q :q<CR>
 nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
-nnoremap <Leader>f :Ag<CR>
 nnoremap <Leader>u :%!python -m json.tool<CR>
 nnoremap <silent> <leader>h :nohlsearch<CR>
 nnoremap <Leader>n :w !node<CR>
@@ -137,7 +136,8 @@ nnoremap <C-l> <C-w>l
 " End NERDTree suggestions
 
 " Fzf suggestions:
-nmap ; :Files<CR>
+nnoremap ; :Files<CR>
+nnoremap <Leader>; :Ag<CR>
 " End Fzf suggestions
 
 " ObviousResize suggestions:

@@ -5,10 +5,10 @@ syntax on
 colorscheme onedark
 
 " lets:
+let mapleader = "\<Space>"
 
 let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 let NERDTreeShowLineNumbers = 1
-let mapleader = " "
 let NERDTreeShowHidden = 1
 let g:ale_fix_on_save = 0
 let g:better_whitespace_enabled = 1

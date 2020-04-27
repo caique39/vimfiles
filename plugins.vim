@@ -12,7 +12,7 @@ Plug 'junegunn/vim-easy-align'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'tomtom/tcomment_vim'
+Plug 'tpope/vim-commentary'
 Plug 'talek/obvious-resize'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'rstacruz/vim-closer'

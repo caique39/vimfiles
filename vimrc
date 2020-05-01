@@ -96,6 +96,7 @@ nnoremap <Leader>O O<Esc>
 nnoremap <Leader>u :%!python -m json.tool<CR>
 nnoremap <silent> <leader>h :nohlsearch<CR>
 nnoremap <Leader>n :w !node<CR>
+nnoremap <Leader>t :w !ts-node %<CR>
 
 " Coc suggestions:
 function! s:check_back_space() abort

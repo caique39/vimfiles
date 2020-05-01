@@ -19,6 +19,7 @@ Plug 'rstacruz/vim-closer'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-repeat'
 Plug 'christoomey/vim-sort-motion'
+Plug 'christoomey/vim-tmux-navigator'
 
 " Text objects
 Plug 'michaeljsmith/vim-indent-object'

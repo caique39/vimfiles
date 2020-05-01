@@ -20,6 +20,7 @@ Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-repeat'
 Plug 'christoomey/vim-sort-motion'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'junegunn/vim-peekaboo'
 
 " Text objects
 Plug 'michaeljsmith/vim-indent-object'

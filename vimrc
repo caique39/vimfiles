@@ -134,7 +134,9 @@ map <Leader>nf :NERDTreeFind<CR>
 autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " Fzf suggestions:
-nnoremap ; :Files<CR>
+command! FzfListFiles execute (len(fugitive#head())) ? 'GFiles' : 'Files'
+
+nnoremap ; :FzfListFiles<CR>
 nnoremap <Leader>; :Ag<CR>
 " End Fzf suggestions
 

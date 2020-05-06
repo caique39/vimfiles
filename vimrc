@@ -125,7 +125,7 @@ nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
-" End CoC
+" End CoC suggestions
 
 " NERDTree suggestions:
 map <Leader>nt :NERDTreeToggle<CR>

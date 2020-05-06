@@ -141,10 +141,10 @@ nnoremap <Leader>; :Ag<CR>
 " End Fzf suggestions
 
 " ObviousResize suggestions:
-nnoremap <silent> <S-Left> :<C-U>ObviousResizeLeft<CR>
-nnoremap <silent> <S-Down> :<C-U>ObviousResizeDown<CR>
-nnoremap <silent> <S-Up> :<C-U>ObviousResizeUp<CR>
-nnoremap <silent> <S-Right> :<C-U>ObviousResizeRight<CR>
+nnoremap <silent> <Left>  :<C-U>ObviousResizeLeft<CR>
+nnoremap <silent> <Down>  :<C-U>ObviousResizeDown<CR>
+nnoremap <silent> <Up>    :<C-U>ObviousResizeUp<CR>
+nnoremap <silent> <Right> :<C-U>ObviousResizeRight<CR>
 " End ObviousResize suggestions
 
 " EasyMotion suggestions:

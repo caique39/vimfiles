@@ -23,6 +23,13 @@ let g:ale_fixers = {
 \   'javascript': ['eslint'],
 \}
 
+" abbrs:
+
+abbr cosnt const
+abbr funtcion function
+
+" end abbrs
+
 " end lets
 
 " sets:

@@ -6,9 +6,10 @@ colorscheme onedark
 
 " lets:
 let mapleader = "\<Space>"
-
-
 let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+
+let s:os = trim(system('uname -s'))
+let s:is_linux = s:os == 'Linux'
 
 let NERDTreeShowLineNumbers = 1
 let NERDTreeShowHidden = 1
@@ -54,6 +55,12 @@ set wildmode=list:longest,full
 set wildignorecase
 set splitright
 set splitbelow
+
+if s:is_linux
+  set clipboard=unnamedplus
+else
+  set clipboard=unnamed
+endif
 
 " Make it obvious where 80 characters is
 set colorcolumn=81

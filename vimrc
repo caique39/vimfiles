@@ -133,7 +133,7 @@ hi! link CocInfoSign Type
 
 " GoTo code navigation.
 nmap <leader>qf  <Plug>(coc-fix-current)
-nmap <leader>rn <Plug>(coc-rename)
+nmap <leader>rr <Plug>(coc-rename)
 
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)

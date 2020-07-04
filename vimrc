@@ -112,6 +112,8 @@ nnoremap <silent> <leader>h :nohlsearch<CR>
 nnoremap <Leader>n :w !node<CR>
 nnoremap <Leader>t :w !ts-node %<CR>
 
+autocmd FileType latex,tex,md,markdown,text setlocal spell
+
 " Coc suggestions:
 function! s:check_back_space() abort
   let col = col('.') - 1

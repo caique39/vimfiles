@@ -24,14 +24,16 @@ let g:ale_fixers = {
 \   'javascript': ['eslint'],
 \}
 
+let g:airline_theme = 'dracula'
+
+" end lets
+
 " abbrs:
 
 abbr cosnt const
 abbr funtcion function
 
 " end abbrs
-
-" end lets
 
 " sets:
 

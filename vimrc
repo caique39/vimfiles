@@ -57,6 +57,7 @@ set wildmode=list:longest,full
 set wildignorecase
 set splitright
 set splitbelow
+set gdefault
 
 if s:is_linux
   set clipboard=unnamedplus

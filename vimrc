@@ -13,8 +13,13 @@ let s:is_linux = s:os == 'Linux'
 
 let NERDTreeShowLineNumbers = 1
 let NERDTreeShowHidden = 1
+let g:coc_global_extensions = [
+\ 'coc-tsserver',
+\ 'coc-css',
+\ 'coc-phpls',
+\ 'coc-omnisharp'
+\]
 
-let g:coc_global_extensions = ['coc-tsserver', 'coc-css']
 let g:ale_fix_on_save = 0
 let g:better_whitespace_enabled = 1
 let g:strip_whitespace_on_save = 1

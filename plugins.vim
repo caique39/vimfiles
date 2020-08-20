@@ -44,6 +44,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'mattn/emmet-vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'ap/vim-css-color'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 " UI
 Plug 'ryanoasis/vim-devicons'

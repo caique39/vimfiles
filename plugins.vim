@@ -24,6 +24,9 @@ Plug 'christoomey/vim-sort-motion'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'junegunn/vim-peekaboo'
 
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
 " Text objects
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'vim-scripts/argtextobj.vim'

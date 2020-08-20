@@ -2,7 +2,9 @@ call plug#begin('~/.vim/plugged')
 
 " Plugins:
 
+" Tools
 Plug 'tpope/vim-eunuch'
+Plug 'aserebryakov/vim-todo-lists'
 
 " Editing
 Plug 'editorconfig/editorconfig-vim'

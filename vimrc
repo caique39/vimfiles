@@ -29,6 +29,9 @@ let g:ale_fixers = {
 \   'javascript': ['eslint'],
 \}
 
+let g:VimTodoListsDatesEnabled = 1
+let g:VimTodoListsDatesFormat = "%d-%m-%Y"
+
 let g:airline_theme = 'dracula'
 
 " end lets

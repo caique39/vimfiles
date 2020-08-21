@@ -66,6 +66,7 @@ set wildignorecase
 set splitright
 set splitbelow
 set gdefault
+set noerrorbells
 
 if s:is_linux
   set clipboard=unnamedplus

@@ -34,6 +34,7 @@ Plug 'vim-scripts/argtextobj.vim'
 " Git
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
 
 " Search
 Plug 'junegunn/fzf', { 'do': './install --bin' }

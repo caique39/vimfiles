@@ -1,4 +1,5 @@
 source ~/.vim/plugins.vim
+source ~/.vim/abbrs.vim
 
 syntax on
 
@@ -35,13 +36,6 @@ let g:VimTodoListsDatesFormat = "%d-%m-%Y"
 let g:airline_theme = 'dracula'
 
 " end lets
-
-" abbrs:
-
-abbr cosnt const
-abbr funtcion function
-
-" end abbrs
 
 " sets:
 

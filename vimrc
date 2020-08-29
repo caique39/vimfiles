@@ -21,17 +21,19 @@ let g:coc_global_extensions = [
 \ 'coc-omnisharp'
 \]
 
-let g:ale_fix_on_save = 0
 let g:better_whitespace_enabled = 1
 let g:strip_whitespace_on_save = 1
 let g:obvious_resize_default = 2
+let g:UltiSnipsExpandTrigger='<c-k>'
+
+let g:ale_fix_on_save = 0
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'javascript': ['eslint'],
 \}
 
 let g:VimTodoListsDatesEnabled = 1
-let g:VimTodoListsDatesFormat = "%d-%m-%Y"
+let g:VimTodoListsDatesFormat = '%d-%m-%Y'
 
 let g:airline_theme = 'dracula'
 

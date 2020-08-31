@@ -25,6 +25,7 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'junegunn/vim-peekaboo'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'machakann/vim-highlightedyank'
+Plug 'MattesGroeger/vim-bookmarks'
 
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'

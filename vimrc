@@ -37,6 +37,8 @@ let g:VimTodoListsDatesFormat = '%d-%m-%Y'
 
 let g:airline_theme = 'dracula'
 
+let g:bookmark_auto_close = 1
+
 " end lets
 
 " sets:

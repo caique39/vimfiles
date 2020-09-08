@@ -38,6 +38,7 @@ Plug 'vim-scripts/argtextobj.vim'
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
+Plug 'tommcdo/vim-fugitive-blame-ext'
 
 " Search
 Plug 'junegunn/fzf', { 'do': './install --bin' }

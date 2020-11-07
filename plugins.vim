@@ -64,4 +64,8 @@ Plug 'dense-analysis/ale'
 " Reports
 Plug 'wakatime/vim-wakatime'
 
+" Debugger & Suggestions
+Plug 'puremourning/vimspector'
+Plug 'szw/vim-maximizer'
+
 call plug#end()

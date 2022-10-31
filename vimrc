@@ -15,10 +15,13 @@ let s:is_linux = s:os == 'Linux'
 let NERDTreeShowLineNumbers = 1
 let NERDTreeShowHidden = 1
 let g:coc_global_extensions = [
+\ 'coc-rust-analyzer',
 \ 'coc-tsserver',
 \ 'coc-css',
-\ 'coc-phpls',
-\ 'coc-omnisharp'
+\ 'coc-json',
+\ 'coc-html',
+\ 'coc-prettier',
+\ 'coc-python'
 \]
 
 let g:better_whitespace_enabled = 1
@@ -37,7 +40,7 @@ let g:VimTodoListsDatesFormat = '%d-%m-%Y'
 
 let g:airline_theme = 'dracula'
 
-let g:bookmark_auto_close = 1
+let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.php,*.jsx,*.tsx"
 
 " end lets
 
@@ -119,10 +122,22 @@ nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
 nnoremap <Leader>u :%!python -m json.tool<CR>
 nnoremap <silent> <leader>h :nohlsearch<CR>
+nnoremap <Leader>r :RustRun<CR>
+nnoremap <Leader>f :RustFmt<CR>
 nnoremap <Leader>n :w !node<CR>
 nnoremap <Leader>t :w !ts-node %<CR>
+nnoremap <Leader>s :w !csc % && chmod +x %:r.exe && ./%:r.exe<CR>
 
 autocmd FileType latex,tex,md,markdown,text setlocal spell
+
+" set filetypes as typescriptreact
+autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
+
+" Coc Prettier:
+
+command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
+
+" End Coc Prettier
 
 " Coc suggestions:
 function! s:check_back_space() abort
@@ -153,6 +168,15 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 " End CoC suggestions
 
+" Python black
+
+" augroup black_on_save
+"   autocmd!
+"   autocmd BufWritePre *.py Black
+" augroup end
+
+" End Python black
+
 " NERDTree suggestions:
 map <Leader>nt :NERDTreeToggle<CR>
 map <Leader>nf :NERDTreeFind<CR>
@@ -162,7 +186,7 @@ autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " Fzf suggestions:
 command! FzfListFiles execute (len(fugitive#head())) ? 'GFiles' : 'Files'
 
-nnoremap ; :FzfListFiles<CR>
+nnoremap ; :Files<CR>
 nnoremap <Leader>; :Ag<CR>
 " End Fzf suggestions
 
@@ -187,7 +211,7 @@ nnoremap <Leader>gd :Gvdiff<cr>
 nnoremap <Leader>gs :Gstatus<cr>
 nnoremap <Leader>gw :Gwrite<cr>
 nnoremap <Leader>ga :Git add<cr>
-nnoremap <Leader>gb :Gblame<cr>
+nnoremap <Leader>gb :Git blame<cr>
 nnoremap <Leader>gci :Gcommit<cr>
 nnoremap <Leader>gch :Git checkout -- %<cr>
 nnoremap <Leader>ge :Gedit<cr>

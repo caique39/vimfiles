@@ -20,12 +20,12 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'rstacruz/vim-closer'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-markdown'
 Plug 'christoomey/vim-sort-motion'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'junegunn/vim-peekaboo'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'machakann/vim-highlightedyank'
-Plug 'MattesGroeger/vim-bookmarks'
 
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
@@ -33,6 +33,7 @@ Plug 'honza/vim-snippets'
 " Text objects
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'vim-scripts/argtextobj.vim'
+Plug 'vim-scripts/SyntaxRange'
 
 " Git
 Plug 'mhinz/vim-signify'
@@ -45,11 +46,13 @@ Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 
 " Languages and frameworks
+Plug 'rust-lang/rust.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'mattn/emmet-vim'
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'ap/vim-css-color'
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'alvan/vim-closetag'
 
 " UI
 Plug 'ryanoasis/vim-devicons'
